@@ -54,7 +54,17 @@ const App: React.FC = () => {
     run()
   }, [run])
 
-  return null;
+  return (
+    <div>
+      <p>
+        Grupo:<br />
+          Pedro Dias<br />
+          Thiago Antunes<br />
+          Hiel Rocha<br />
+          Leonardo Nunes
+      </p>
+    </div>
+  );
 }
 
 export default App;
